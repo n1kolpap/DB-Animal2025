@@ -13,7 +13,7 @@ GRANT ALL PRIVILEGES ON mydb.* TO 'adminAnimalDB'@'%';
 GRANT SELECT, INSERT, UPDATE ON mydb.Owner TO 'ownerAnimalDB'@'%';
 GRANT SELECT ON mydb.Animal TO 'ownerAnimalDB'@'%';
 GRANT SELECT ON mydb.Veterinarian TO 'ownerAnimalDB'@'%';
-GRANT INSERT ON mydb.Veterinarian_works_at_Clinic TO 'veterinarianAnimalDB'@'%';
+GRANT SELECT ON mydb.Veterinarian_works_at_Clinic TO 'veterinarianAnimalDB'@'%';
 GRANT SELECT ON mydb.Surgeries TO 'ownerAnimalDB'@'%';
 GRANT SELECT ON mydb.Antiparasitic_Treatments TO 'ownerAnimalDB'@'%';
 GRANT SELECT ON mydb.Other_Treatments TO 'ownerAnimalDB'@'%';
