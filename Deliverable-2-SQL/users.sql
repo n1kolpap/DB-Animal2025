@@ -1,5 +1,5 @@
 -- Create users
-DROP USER IF EXISTS 'adminAnimalDB'@'%';
+DROP USER IF EXISTS 'adminAnimalDB'@'localhost'; -- admin should be local-only
 DROP USER IF EXISTS 'ownerAnimalDB'@'%';
 DROP USER IF EXISTS 'veterinarianAnimalDB'@'%';
 CREATE USER 'adminAnimalDB'@'%' IDENTIFIED BY 'adminpassword';
