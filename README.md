@@ -1,4 +1,4 @@
-# This is a companion animal’s health record database
+# A companion animal’s health record database
 
 Links:
 - [Report](https://docs.google.com/document/d/15xanb0uL8-dsOWiI1NlAuecRu6TyDOhr/edit)
